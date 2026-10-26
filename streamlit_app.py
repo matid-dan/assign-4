@@ -28,5 +28,6 @@ with tabs[2]:
 
 # Tab 4: 
 with tabs[3]:
-    st.print('thank you for the oppurtunity to learn')
+    st.subheader("Thank You")
+    st.write("Thank you for the opportunity to learn!")
 
