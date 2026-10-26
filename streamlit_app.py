@@ -27,4 +27,6 @@ with tabs[2]:
     st.bar_chart(df['Volume'])
 
 # Tab 4: 
-print('thank you for the oppurtunity to learn')
+with tabs[3]:
+    print('thank you for the oppurtunity to learn')
+
