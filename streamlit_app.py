@@ -8,8 +8,8 @@ st.title("Microsoft Stock Data Dashboard by Mathias Daniel")
 # Read CSV file with stock data (CSV file must be in 'main' folder for your assignment 4 repository) 
 df = pd.read_csv("msft.csv")
 
-# Set up the 3 tabs on the Dashboard
-tabs = st.tabs(["📋 Raw Data", "📈 Price Chart", "📊 Volume Chart", "thank you"])
+# Set up the 4 tabs on the Dashboard
+tabs = st.tabs(["📋 Raw Data", "📈 Price Chart", "📊 Volume Chart", "Thank you"])
 
 # Tab 1: Raw Data
 with tabs[0]:
@@ -28,5 +28,5 @@ with tabs[2]:
 
 # Tab 4: 
 with tabs[3]:
-    print('thank you for the oppurtunity to learn')
+    st.print('thank you for the oppurtunity to learn')
 
